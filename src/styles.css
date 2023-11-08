@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+#flexbox {
+    display: flex; /* これにより、このクラスを持つ要素がフレックスコンテナーになります */
+    justify-content: flex-start; /* 子要素をコンテナーの左端から配置します */
+    align-items: center; /* 子要素をコンテナーの中央に垂直に配置します */
+    flex-wrap: nowrap; /* 子要素を改行せずに一行に並べます */
+}
+
+button {
+    margin-left: 6px;
+}

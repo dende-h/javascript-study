@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+        <h1>TODOリスト</h1>
+        <div class="input-area">
+          <input id="input-todo" placeholder="TODOを入力" />
+          <button id="add-todo">追加</button>
+        </div>
+        <main>
+          <div>
+            <h2 class="title">TODO</h2>
+            <ul id="todo-list"><li>TODOリストをここに追加していく</li></ul>
+          </div>
+          <div>
+            <h2 class="title">DONE</h2>
+            <ul id="complete-list"><li>完了したものはここに移動する</li></ul>
+          </div>
+          <script type="module" src="src/index.js"></script>
+        </main>
+</body>
+</html>
